@@ -1,4 +1,4 @@
-//Anagram Difference
+package Softtech.yetenek_kusagi.anagram_difference//Anagram Difference
 //An anagram is a word whose characters can be rearranged to create another word. Given two strings, determine the minimum number of characters in either string that must be modified to make the two strings anagrams . If it is not possible to make the two strings anagrams, return -1.
 //
 //

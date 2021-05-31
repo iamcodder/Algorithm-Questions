@@ -22,3 +22,4 @@ fun main(args: Array<String>) {
         val bItem = readLine()!!
         b[i] = bItem
     }
+}

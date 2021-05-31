@@ -1,3 +1,13 @@
+fun main(args: Array<String>) {
+    val s1 = readLine()!!
+
+    val s2 = readLine()!!
+
+    val result = compareStrings(s1, s2)
+
+    println(result)
+}
+
 fun compareStrings(s1: String, s2: String): Int {
 
     var firstList: MutableList<Char> = s1.toMutableList()
@@ -24,15 +34,4 @@ fun controlList(list: List<Char>): MutableList<Char> {
         } else newList.add(it)
     }
     return newList
-}
-
-
-fun main(args: Array<String>) {
-    val s1 = readLine()!!
-
-    val s2 = readLine()!!
-
-    val result = compareStrings(s1, s2)
-
-    println(result)
 }
