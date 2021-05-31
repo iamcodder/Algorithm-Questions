@@ -16,7 +16,7 @@ s2 = axbd#c#c
 ```
 
 In the first string, one `x` and one `b` are backspaced over. The first string becomes `axbc`. The second string also
-becomes `axbc`. The answer is 1.
+becomes `axbc`. The answer is `1`.
 <br/>
 
 #### Function Description
