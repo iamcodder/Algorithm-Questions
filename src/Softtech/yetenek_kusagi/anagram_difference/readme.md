@@ -1,7 +1,7 @@
 ## Anagram Difference
 An anagram is a word whose characters can be rearranged to create another word. Given two strings, determine the minimum number of characters in either string that must be modified to make the two strings anagrams . If it is not possible to make the two strings anagrams, return `-1`.
 
-#####Example:
+#### Example:
 ```
 a = ['tea', 'tea', 'act']
 b = ['ate', 'toe', 'acts']
@@ -14,7 +14,7 @@ b = ['ate', 'toe', 'acts']
 The return array is `[0, 1, -1]`
 
 
-###Function Description
+### Function Description
 
 getMinimumDifference has the following parameter(s):
 
@@ -24,7 +24,7 @@ getMinimumDifference has the following parameter(s):
 
 <br/>
 
-#####Return
+##### Return
 
 `int[n]`  an array of integers which denote the minimum number of characters in either string that need to be modified to make the two strings anagrams. If it is not possible, return `-1`.
 
@@ -36,11 +36,13 @@ getMinimumDifference has the following parameter(s):
 a = ['a', 'jk', 'abb', 'mn', 'abc']
 b = ['bb', 'kj', 'bbc', 'op', 'def']
 ```
-`Output -> [-1,0,1,2,3]`
+``` 
+Output -> [-1,0,1,2,3]
+```
 
 <br/>
 
-####Explanation
+#### Explanation
 
 Perform the following n = 5 calculations:
 
