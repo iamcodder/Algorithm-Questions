@@ -22,13 +22,11 @@ getMinimumDifference has the following parameter(s):
 
 `string b[n]`:  an array of strings
 
-<br/>
 
 ##### Return
 
 `int[n]`  an array of integers which denote the minimum number of characters in either string that need to be modified to make the two strings anagrams. If it is not possible, return `-1`.
 
-<br/>
 
 #### Sample Case 0
 
@@ -39,8 +37,6 @@ b = ['bb', 'kj', 'bbc', 'op', 'def']
 ``` 
 Output -> [-1,0,1,2,3]
 ```
-
-<br/>
 
 #### Explanation
 
