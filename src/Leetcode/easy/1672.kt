@@ -1,5 +1,7 @@
 package Leetcode.easy
 
+import kotlin.collections.isNotEmpty as isNotEmpty
+
 //Main function start here. This function doesnt write to leetcode.
 fun main() {
     val arrays = arrayOf(getRandomArray(), getRandomArray(), getRandomArray())
@@ -15,14 +17,13 @@ fun getRandomArray(): IntArray {
     }
 }
 
-
 //Solution start here
 fun maximumWealth(accounts: Array<IntArray>): Int {
-    var result = 0
-    accounts.forEach {
-        val sum = it.sum()
-        if (sum > result) result = sum
-    }
-    return result
+    return if(accounts.isNotEmpty()) {
+        val stream = accounts.map {
+            it.sum()
+        }
+        stream.maxOrNull() ?: -1
+    } else -1
 }
 
