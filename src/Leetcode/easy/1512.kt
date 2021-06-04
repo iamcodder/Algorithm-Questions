@@ -1,6 +1,6 @@
 package Leetcode.easy
 
-fun main() {
+private fun main() {
     val nums = IntArray(4)
     nums[0] = 1
     nums[1] = 1
@@ -10,7 +10,7 @@ fun main() {
     println(numIdenticalPairs(nums))
 }
 
-fun numIdenticalPairs(nums: IntArray): Int {
+private fun numIdenticalPairs(nums: IntArray): Int {
     var findedNums = 0
     nums.forEachIndexed { index, data ->
         for (i in index+1 until nums.size) {

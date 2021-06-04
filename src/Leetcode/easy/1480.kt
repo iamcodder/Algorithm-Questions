@@ -2,14 +2,14 @@ package Leetcode.easy
 
 import java.util.*
 
-fun main() {
+private fun main() {
     val numsOne = IntArray(4) {
         (0..10).random()
     }
     runningSum(numsOne)
 }
 
-fun runningSum(nums: IntArray): IntArray {
+private fun runningSum(nums: IntArray): IntArray {
 
     val tempArray = arrayListOf<Int>()
 

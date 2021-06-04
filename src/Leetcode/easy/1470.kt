@@ -1,6 +1,6 @@
 package Leetcode.easy
 
-fun main() {
+private fun main() {
 
     //Sample 1
     val arrayOne = arrayOf(2, 5, 1, 3, 4, 7)
@@ -19,7 +19,7 @@ fun main() {
 
 }
 
-fun shuffle(nums: Array<Int>, n: Int): IntArray {
+private fun shuffle(nums: Array<Int>, n: Int): IntArray {
     val tempList = arrayListOf<Int>()
     val range = 0 until n
     range.forEach {

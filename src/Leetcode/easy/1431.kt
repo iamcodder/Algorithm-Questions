@@ -1,6 +1,6 @@
 package Leetcode.easy
 
-fun main(args: Array<String>) {
+private fun main(args: Array<String>) {
     val extraCandies = 3
     val candies = IntArray(5)
     candies[0] = 2
@@ -12,7 +12,7 @@ fun main(args: Array<String>) {
     println(list)
 }
 
-fun kidsWithCandies(candies: IntArray, extraCandies: Int): List<Boolean> {
+private fun kidsWithCandies(candies: IntArray, extraCandies: Int): List<Boolean> {
     val maxValue = candies.maxOrNull()
     maxValue?.let { max ->
         val tempList = arrayListOf<Boolean>()
