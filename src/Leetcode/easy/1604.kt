@@ -2,7 +2,7 @@ package Leetcode.easy
 
 
 
-class ParkingSystem(big: Int, medium: Int, small: Int) {
+private class ParkingSystem(big: Int, medium: Int, small: Int) {
 
     val map = HashMap<Int,Int>()
     init {
