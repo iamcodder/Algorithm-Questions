@@ -1,9 +1,8 @@
 package Leetcode.easy
 
-import kotlin.collections.isNotEmpty as isNotEmpty
 
-//Main function start here. This function doesnt write to leetcode.
-fun main() {
+//Main private function start here. This private function doesnt write to leetcode.
+private fun main() {
     val arrays = arrayOf(getRandomArray(), getRandomArray(), getRandomArray())
     arrays.forEach {
         print(it.contentToString())
@@ -11,14 +10,14 @@ fun main() {
     println("\nBiggest Wealth : " + maximumWealth(arrays))
 }
 
-fun getRandomArray(): IntArray {
+private fun getRandomArray(): IntArray {
     return IntArray((0..10).random()) {
         (0..20).random()
     }
 }
 
 //Solution start here
-fun maximumWealth(accounts: Array<IntArray>): Int {
+private fun maximumWealth(accounts: Array<IntArray>): Int {
     return if(accounts.isNotEmpty()) {
         val stream = accounts.map {
             it.sum()
